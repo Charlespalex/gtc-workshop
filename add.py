@@ -1,4 +1,6 @@
 a=22
 b=33
-c=a+b
+d=22
+c=a+b+d
 print(c)
+
