@@ -4,9 +4,9 @@ app=Flask(__name__ )
 @app.route("/")
 def index():
     return render_template('index.html')  
-@app.route("/home")
+@app.route("/home")  
 def home():
-    return "welcome to my home page"
+    return "welcome to my home page"  
 @app.route("/contact")
 def contact():
     return "charles p alex ,ashik muhammed ,amal jacob kuruvilla"
